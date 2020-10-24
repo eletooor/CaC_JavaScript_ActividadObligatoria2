@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>JavaScript</title>
+	<meta charset="utf-8">
+</head>
+<body style="text-align: left; padding-left: 40%;">
+	
+	<script type="text/javascript">
+		for (var i =  11; i >=9; i--) {
+			document.write('<b>La Tabla del ' + i + ':</b><br>');
+			console.log('La Tabla del ' + i + ':');
+
+			for (var j = 1; j <=9; j++) {
+				document.write(i+' x '+j+': '+i*j);//vista por pantalla
+				console.log(i+' x '+j+': '+i*j);	//vista por consola
+				document.write('<br>');
+			}
+			document.write('<br>');
+		}
+	</script>
+</body>
+</html>
